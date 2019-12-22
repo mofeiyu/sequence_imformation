@@ -1,0 +1,7 @@
+#docker run -it -v $(pwd):$(pwd) --net host docker-hub.ucweb.com:5000/shenma/tensorflow_r1.8:opt_2019_01
+#docker run -it -v $(pwd):$(pwd) docker-hub.ucweb.com:5000/shenma/tensorflow_r1.4:opt_2018_07_1
+#
+
+login_tensorflow --name yejinru_try -i docker-hub.ucweb.com:5000/shenma/tensorflow_r1.8:opt_2019_04
+#login_tensorflow --name yejinru_gpu -i docker-hub.ucweb.com:5000/shenma/tensorflow_r1.8:opt_2019_01
+
